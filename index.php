@@ -45,7 +45,7 @@
 			<link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
 			<link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
 		</head>
-	<body id="page-top" class="index>
+	<body id="page-top" class="index">
 		<nav class="navbar navbar-default navbar-fixed-top">
 		    <div class="container">
 		        
@@ -91,6 +91,146 @@
 		        </div>
 		    </div>
 		</header>
+		    <section id="services">
+		        <div class="container">
+		            <div class="row">
+		                <div class="col-lg-12 text-center">
+		                    <h2 class="section-heading">Services</h2>
+		                    <h3 class="section-subheading text-muted"></h3>
+		                </div>
+		            </div>
+		            <div class="row text-center">
+		                <div class="col-md-4">
+		                    <span class="fa-stack fa-4x">
+		                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+								<a href="Booking/index.php">
+		                        <i class="fa fa-bus fa-stack-1x fa-inverse"></i> </a>
+		                    </span>
+		                    <h4 class="service-heading">Booking</h4>
+		                    <p class="text-muted">Rezervime online te Eurotrip.</p>
+		                </div>
+		                <div class="col-md-4">
+		                    <span class="fa-stack fa-4x">
+		                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+		                        <i class="fa fa-spinner fa-stack-1x fa-inverse"></i>
+		                    </span>
+		                    <h4 class="service-heading">Hiking/Winter Trips</h4>
+		                    <p class="text-muted">Coming Soon...</p>
+		                </div>
+		                <div class="col-md-4">
+		                    <span class="fa-stack fa-4x">
+		                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+		                        <i class="fa fa-spinner fa-stack-1x fa-inverse"></i>
+		                    </span>
+		                    <h4 class="service-heading">Albania Trips</h4>
+		                    <p class="text-muted">Coming soon..</p>
+		                </div>
+		            </div>
+		        </div>
+		    </section>
+
+		    <section id="portfolio" class="bg-light-gray">
+		        <div class="container">
+		            <div class="row">
+		                <div class="col-lg-12 text-center">
+		                    <h2 class="section-heading">Portfolio</h2>
+							<br><br>
+		                   <h3 class="section-subheading text-muted">
+						    <?php
+		                        $_SESSION["eja"] = "Let's make memories!";
+		                        echo " ".$_SESSION["eja"]." ";
+		                    ?>
+							</h3> 
+		                </div>
+		            </div>
+		            <div class="row">
+		                <div class="col-md-4 col-sm-6 portfolio-item">
+		                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+		                        <div class="portfolio-hover">
+		                            <div class="portfolio-hover-content">
+		                                <i class="fa fa-plus fa-3x"></i>
+		                            </div>
+		                        </div>
+		                        <img src="img/portfolio/foto1.jpg" class="img-responsive" alt="">
+		                    </a>
+		                    <div class="portfolio-caption">
+		                        <h4>2010</h4>
+		                        
+		                    </div>
+		                </div>
+		                <div class="col-md-4 col-sm-6 portfolio-item">
+		                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+		                        <div class="portfolio-hover">
+		                            <div class="portfolio-hover-content">
+		                                <i class="fa fa-plus fa-3x"></i>
+		                            </div>
+		                        </div>
+		                        <img src="img/portfolio/foto2.jpg" class="img-responsive" alt="">
+		                    </a>
+		                    <div class="portfolio-caption">
+		                        <h4>2011</h4>
+		                        
+		                    </div>
+		                </div>
+		                <div class="col-md-4 col-sm-6 portfolio-item">
+		                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+		                        <div class="portfolio-hover">
+		                            <div class="portfolio-hover-content">
+		                                <i class="fa fa-plus fa-3x"></i>
+		                            </div>
+		                        </div>
+		                        <img src="img/portfolio/foto3.jpg" class="img-responsive" alt="">
+		                    </a>
+		                    <div class="portfolio-caption">
+		                        <h4>2012</h4>
+		                        
+		                    </div>
+		                </div>
+		                <div class="col-md-4 col-sm-6 portfolio-item">
+		                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
+		                        <div class="portfolio-hover">
+		                            <div class="portfolio-hover-content">
+		                                <i class="fa fa-plus fa-3x"></i>
+		                            </div>
+		                        </div>
+		                        <img src="img/portfolio/foto4.jpg" class="img-responsive" alt="">
+		                    </a>
+		                    <div class="portfolio-caption">
+		                        <h4>2013</h4>
+		                        
+		                    </div>
+		                </div>
+		                <div class="col-md-4 col-sm-6 portfolio-item">
+		                    <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
+		                        <div class="portfolio-hover">
+		                            <div class="portfolio-hover-content">
+		                                <i class="fa fa-plus fa-3x"></i>
+		                            </div>
+		                        </div>
+		                        <img src="img/portfolio/foto5.jpg" class="img-responsive" alt="">
+		                    </a>
+		                    <div class="portfolio-caption">
+		                        <h4>2014</h4>
+		                        
+		                    </div>
+		                </div>
+		                <div class="col-md-4 col-sm-6 portfolio-item">
+		                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
+		                        <div class="portfolio-hover">
+		                            <div class="portfolio-hover-content">
+		                                <i class="fa fa-plus fa-3x"></i>
+		                            </div>
+		                        </div>
+		                        <img src="img/portfolio/foto6.jpg" class="img-responsive" alt="">
+		                    </a>
+		                    <div class="portfolio-caption">
+		                        <h4>2015</h4>
+		                        
+		                    </div>
+		                </div>
+		            </div>
+		        </div>
+		    </section>
 	</body>
 	</html>
 ?>
