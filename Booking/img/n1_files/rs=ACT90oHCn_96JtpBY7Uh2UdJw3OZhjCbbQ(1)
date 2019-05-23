@@ -1,5 +1,0 @@
-try{
-QS_J("ivw");var QS_nWb=function(a){this.Fa=a};var QS_oWb=function(a){QS_V.call(this,a)};QS_g(QS_oWb,QS_V);QS_U(function(a){a.kb("t-mqWFpp0vPaI",QS_nWb,null,QS_oWb,function(a,c,d){QS_nWb.call(a,d)},"gws.images.viewer.ViewerImageController")});
-QS_I("ivw");QS_K();
-}catch(e){_DumpException(e)}
-// Google Inc.
